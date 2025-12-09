@@ -1,6 +1,6 @@
 # MathBuddy App
 
-MathBuddy is an Android application created for Chudar to help students practice mathematics in an accessible, mobile-friendly way. It provides structured exercises, progress tracking, and AI-powered problem generation to support learning in low-resource environments.
+MathBuddy is an Android application created for the nonprofit Chudar which provides academic support to underserved children in India. MathBuddy aims to provide students with consistent learning to help with preparation for the NMMS (National Means-Cum-Merit Scholarship) exam. It provides structured exercises, progress tracking, and AI-powered problem generation to support learning in low-resource environments.
 
 ---
 
@@ -12,47 +12,27 @@ MathBuddy gives students a simple interface to practice Algebra, Number Theory, 
 
 ## Key Features
 
-### 📚 Practice Modes
-Students can work through topic-based practice sets, each containing:
+MathBuddy provides students with four core math practice areas:
+
+- **Algebra**
+- **Geometry**
+- **Number Theory**
+- **Statistics**
+
+Students select a topic from the Practice Screen and work through curated questions with instant feedback and explanations.
+
+---
+
+### Topic-Based Practice
+Each subject includes:
 - Multiple-choice questions  
 - Instant feedback  
-- Step-by-step explanations (from in-app solution banks)
+- Step-by-step explanations  
+- Preset question banks stored locally in the app  
+- Test mode
 
-### 🧑‍🏫 Screens & Components
-- **Home Screen** — choose a topic or take a mixed practice test  
-- **Practice Screen** — answer questions, view explanations, and progress  
-- **Test Mode** — 20-question mixed-topic assessment  
-- **User Progress** — stores completed problems, scores, and test history  
-- **Local Database** — all progress and preset problems saved using Room
-
-### 🤖 AI-Powered Functionality
-MathBuddy integrates two external APIs:
-
-#### **OpenAI API**
-Used for:
-- Generating new practice questions  
-- Creating simple hints when students get stuck  
-- Supporting future adaptive practice features  
-
-#### **Wolfram Alpha API**
-Used for:
-- Checking correctness of mathematical expressions  
-- Returning step-by-step evaluations or simplified results  
-- Validating AI-generated questions
-
+###  AI-Powered Functionality
+MathBuddy integrates two external APIs: OpenAI API and Wolfram Alpha API, which are used to generate new practice questions, check correctness of mathematical expressions, and validate AI-generated questions. 
 These APIs allow MathBuddy to expand beyond preset content while keeping learning grounded and accurate.
 
----
-
-## Technology Overview
-
-- **Kotlin + Android Jetpack**
-- **Jetpack Compose UI** (if enabled in this version)
-- **Room Database** for offline persistence
-- **Repository Pattern** for clean data handling
-- **OpenAI + Wolfram Alpha APIs** for intelligent question generation and solution checking
-
----
-
-## Folder Structure (High-Level)
 
