@@ -1,0 +1,22 @@
+# MathBuddy App
+
+MathBuddy Chudar App is an Android application created to support mathematics learning and practice. The app provides a simple and accessible interface for students to work through math exercises on a mobile device.
+
+## What is MathBuddy Chudar App?
+
+MathBuddy Chudar App offers a mobile platform for practicing math problems, reviewing concepts, and improving skills through repeated engagement. It is designed for environments where students may have limited access to computers or consistent internet connectivity.
+
+### Key Features
+
+- Practice math problems in a structured format  
+- Clear and intuitive user interface  
+- Basic progress feedback  
+- Designed for offline use after installation  
+- Developed using standard Android frameworks  
+
+(Additional features can be added here as the project expands.)
+
+---
+
+## Repository Structure
+
